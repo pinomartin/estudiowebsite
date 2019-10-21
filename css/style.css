@@ -201,11 +201,19 @@ h4 {
 .icono {
     text-align: center;
     line-height: 2.5rem;
+    
+}
+
+.logos-inicio{
+    width: 35%;
 }
 
 @media (min-width: 768px) {
     .icono {
         flex-basis: calc(33.3% - 1rem);
+    }
+    .logos-inicio{
+        width: auto;
     }
 }
 
@@ -317,10 +325,18 @@ h4 {
 }
 
 .ver-todas {
+    display: inline-flex;
+    width: 95%;
+    text-align: center;
+    margin-left: 2rem;
+}
+
+@media(min-width: 768px){
+.ver-todas {
     display: flex;
     justify-content: flex-end;
 }
-
+}
 /**Links de Interes**/
 
 @media (min-width: 768px) {
