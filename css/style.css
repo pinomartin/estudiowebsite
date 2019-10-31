@@ -231,6 +231,10 @@ h4 {
     height: 10rem;
 }
 
+.separador1{
+    height: 5rem;
+}
+
 /**Anuncios**/
 
 @media (min-width: 768px) {
@@ -576,25 +580,84 @@ h4 {
 
 /**Contacto**/
 
+
+
+.texto-nosotros{
+    border-style: double;
+    border-color: #077fa3;
+    text-align: justify;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 3rem;
+}
+
+.texto-contacto{
+    border-style: none;
+    border-color: #077fa3;
+    text-align: justify;
+   margin-top: 4rem;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 3rem;
+}
+
+.contenido-servicios img{
+    padding-top: 6rem;
+      
+    
+}
+
+.texto-impositivo{
+    border-color: #077fa3;
+    border-radius: 3rem;
+    border-style: double;
+    text-align: justify;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.texto-impositivo blockquote {
+    font-weight: 900;
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+}
+
+.texto-nosotros blockquote {
+   text-align: center;
+   font-weight: 900;
+    font-size: 2rem;
+    margin: 0;
+    padding: 2rem 0 2rem 0;
+
+}
+.contenido-servicios-auditoria img{
+    display: none;
+}
+
 @media (min-width: 768px) {
     .contenido-nosotros {
         display: grid;
         /**grid-template-columns: repeat(2, 1fr);**/
-        grid-template-columns: 30% 70%;
-        grid-column-gap: 2rem;
+        grid-template-columns: 35% 65% ;
+        grid-column-gap: 4rem;
     }
     .contenido-servicios {
         display: grid;
-        grid-template-columns: 70% 30%;
-        grid-column-gap: 2rem;
+        grid-template-columns: 60% 40%;
+        column-gap: 2rem;
+        
     }
     .contenido-servicios img{
-        padding-top: 15rem;
+        padding-top: 10rem!important;
+        
+    }
+    .contenido-servicios-auditoria img{
+        display: block;
+        padding-top: 15rem!important;
         
     }
     .contenido-servicios-auditoria {
         display: grid;
-        grid-template-columns: 100%;
+        grid-template-columns: 40% 60%;
         grid-column-gap: 2rem;
     }
     .contenido-contacto1 {
@@ -603,17 +666,26 @@ h4 {
         grid-column-gap: 2rem;
     }
 
-}
-
-.texto-nosotros p {
+    .texto-nosotros,.texto-impositivo,.texto-contacto{
+        border-radius: 3rem;
+        text-align: justify;
+        border-style: none!important;
+        padding: 1rem 1rem 1rem 1rem;
+        background-color: #e2e2e28a;
+        
+    }
+    .texto-nosotros blockquote{
     text-align: justify;
-}
+    }
 
-.texto-nosotros blockquote {
-    font-weight: 900;
-    font-size: 2rem;
-    margin: 0;
-    padding: 2rem 0 2rem 0;
+    .separador{
+        display: block;    
+    }
+    .separador1{
+        display: block;    
+    }
+   
+
 }
 
 /**Anuncio**/
