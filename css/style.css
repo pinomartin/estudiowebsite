@@ -29,6 +29,7 @@ img {
     max-width: 120rem;
     /** =1200px **/
     margin: 0 auto;
+    flex: 0 0 95%;
 }
 
 h1 {
@@ -254,13 +255,6 @@ h4 {
     line-height: 2.5rem;
 }
 
-#henisa-index{
-    padding-left: 2rem ;
-}
-
-#lam-index{
-    padding-right: 1.5rem;
-}
 
 @media (min-width: 768px) {
     .anuncio {
@@ -335,23 +329,6 @@ h4 {
     text-align: center;
 }
 
-.iconos-caracteristicas {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: space-evenly;
-    max-width: 50rem;
-    flex: 1;
-}
-
-.iconos-caracteristicas li {
-    flex: 1;
-    display: flex;
-}
-
-.iconos-caracteristicas li img {
-    margin-right: 2rem;
-}
 
 .ver-todas {
     display: inline-flex;
@@ -426,15 +403,7 @@ h4 {
    }
 }
 
-.contenido-anuncio {
-    padding: 0rem;
-}
 
-.contenido-anuncio h3, .contenido-anuncio p {
-    margin: 0;
-    align-content: center;
-    text-align: center;
-}
 
 .iconos-caracteristicas {
     list-style: none;
@@ -549,7 +518,12 @@ h4 {
     width: 100%;
     height: 100%;
 }
-
+@media(min-width: 768px){
+    .divframe{
+        display: block;
+        margin-top: 6rem;
+    }
+}
 /**Footer**/
 
 .site-footer {
@@ -594,7 +568,7 @@ h4 {
     border-style: none;
     border-color: #077fa3;
     text-align: justify;
-   margin-top: 4rem;
+    margin-top: 4rem;
     padding: 1rem 1rem 1rem 1rem;
     border-radius: 3rem;
 }
@@ -674,6 +648,8 @@ h4 {
         background-color: #e2e2e28a;
         
     }
+    
+
     .texto-nosotros blockquote{
     text-align: justify;
     }
