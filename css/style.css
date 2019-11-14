@@ -565,7 +565,7 @@ h4 {
 }
 
 .texto-contacto{
-    border-style: none;
+    border-style: double;
     border-color: #077fa3;
     text-align: justify;
     margin-top: 4rem;
