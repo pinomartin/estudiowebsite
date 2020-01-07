@@ -573,6 +573,16 @@ h4 {
     border-radius: 3rem;
 }
 
+.texto-contacto i{
+    font-size: 3rem;
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+
+.texto-contacto p {
+    line-height: normal;
+}
+
 .contenido-servicios img{
     padding-top: 6rem;
       
@@ -641,11 +651,14 @@ h4 {
     }
 
     .texto-nosotros,.texto-impositivo,.texto-contacto{
-        border-radius: 3rem;
-        text-align: justify;
+        border-radius: 1.5rem;
+        text-align: center;
         border-style: none!important;
         padding: 1rem 1rem 1rem 1rem;
-        background-color: #e2e2e28a;
+        -webkit-box-shadow: 10px 4px 10px 1px rgba(0,0,0,0.3);
+        -moz-box-shadow: 10px 4px 10px 1px rgba(0,0,0,0.3);
+        box-shadow: 10px 4px 10px 1px rgba(0,0,0,0.3);
+        background-color: rgb(235, 232, 232);
         
     }
     
