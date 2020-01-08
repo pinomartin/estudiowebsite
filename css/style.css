@@ -559,19 +559,20 @@ h4 {
 .texto-nosotros{
     border-style: double;
     border-color: #077fa3;
-    text-align: justify;
+    text-align: center;
     padding: 1rem 1rem 1rem 1rem;
     border-radius: 3rem;
 }
 
 .texto-contacto{
     border-width: 3px;
-    border-style: none;
-    background: linear-gradient(to right, rgb(255, 255, 255), rgb(202, 202, 202));
+    border-style: double;
+    border-color: #077fa3;
     text-align: center;
     margin-top: 4rem;
     padding: 1rem 1rem 1rem 1rem;
     border-radius: 3rem;
+    
 }
 
 .texto-contacto i{
@@ -596,7 +597,7 @@ h4 {
     border-color: #077fa3;
     border-radius: 3rem;
     border-style: double;
-    text-align: justify;
+    text-align: center;
     padding: 1rem 1rem 1rem 1rem;
 }
 
@@ -661,13 +662,13 @@ h4 {
         -webkit-box-shadow: 10px 4px 10px 1px rgba(0,0,0,0.3);
         -moz-box-shadow: 10px 4px 10px 1px rgba(0,0,0,0.3);
         box-shadow: 10px 4px 10px 1px rgba(0,0,0,0.3);
-        background-color: rgb(235, 232, 232);
+        background: linear-gradient(to top, rgb(255, 255, 255), rgb(226, 224, 224));
         
     }
     
 
     .texto-nosotros blockquote{
-    text-align: justify;
+    text-align: center;
     }
 
     .separador{
