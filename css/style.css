@@ -565,9 +565,10 @@ h4 {
 }
 
 .texto-contacto{
-    border-style: double;
-    border-color: #077fa3;
-    text-align: justify;
+    border-width: 3px;
+    border-style: none;
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(202, 202, 202));
+    text-align: center;
     margin-top: 4rem;
     padding: 1rem 1rem 1rem 1rem;
     border-radius: 3rem;
@@ -577,10 +578,12 @@ h4 {
     font-size: 3rem;
     margin-bottom: 0;
     margin-top: 1rem;
+    
 }
 
 .texto-contacto p {
     line-height: normal;
+    
 }
 
 .contenido-servicios img{
