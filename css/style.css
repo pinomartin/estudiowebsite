@@ -586,16 +586,17 @@ h4 {
 
 
 .texto-nosotros{
-    border-style: double;
+    border-style: inset;
     border-color: #077fa3;
     text-align: center;
     padding: 1rem 1rem 1rem 1rem;
     border-radius: 3rem;
+    
 }
 
 .texto-contacto{
     border-width: 3px;
-    border-style: double;
+    border-style: inset;
     border-color: #077fa3;
     text-align: center;
     margin-top: 4rem;
@@ -625,7 +626,7 @@ h4 {
 .texto-impositivo{
     border-color: #077fa3;
     border-radius: 3rem;
-    border-style: double;
+    border-style: inset;
     text-align: center;
     padding: 1rem 1rem 1rem 1rem;
 }
