@@ -235,7 +235,7 @@ li {
 }
 
 .icono:hover {
-    background-color: #8bddf17e;
+    -webkit-transform: scale(1.05);
 }
 
 .logos-inicio {
@@ -290,6 +290,14 @@ li {
     align-items: center;
     padding-bottom: 5rem;
     line-height: 2.5rem;
+}
+
+.anuncio img {
+    transition: all .3s ease-in-out;
+}
+
+.anuncio:hover img {
+    -webkit-transform: scale(1.1);
 }
 
 @media (min-width: 768px) {
@@ -398,6 +406,14 @@ li {
     align-items: center;
     padding-bottom: 5rem;
     line-height: 2.5rem;
+}
+
+.links img {
+    transition: all .3s ease-in-out;
+}
+
+.links:hover img {
+    -webkit-transform: scale(1.1);
 }
 
 @media (min-width: 768px) {
