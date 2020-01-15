@@ -3,9 +3,12 @@ html {
     /**reset para REMS- 62.5%= 10px de 16 px**/
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     box-sizing: inherit;
 }
+
 
 /**snippet para contenido de las cajas, ajusta tamaño autom.**/
 
@@ -15,14 +18,13 @@ body {
     line-height: 2;
 }
 
+
 /*Globales*/
 
 img {
     max-width: 100%;
     height: auto;
 }
-
-
 
 .contenedor {
     width: 97%;
@@ -47,6 +49,13 @@ h3 {
 h4 {
     font-size: 2.6rem;
 }
+
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 
 /** Utilidades **/
 
@@ -76,6 +85,7 @@ h4 {
     max-width: 800px;
 }
 
+
 /**Botones**/
 
 .boton {
@@ -104,13 +114,14 @@ h4 {
     background-color: #077fa3;
 }
 
-.boton-celeste:hover{
+.boton-celeste:hover {
     background-color: #15b1e0;
 }
 
 .boton-verde {
     background-color: #71B100;
 }
+
 
 /*Header*/
 
@@ -138,7 +149,6 @@ h4 {
 @media (min-width: 768px) {
     .contenido-header {
         text-align: left;
-        
     }
 }
 
@@ -173,6 +183,7 @@ h4 {
     position: relative;
     padding-top: 2rem;
 }
+
 
 /**navegacion**/
 
@@ -213,18 +224,30 @@ h4 {
 .icono {
     text-align: center;
     line-height: 2rem;
-    
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-top: 3px;
+    transition: all .3s ease-in-out;
 }
 
-.logos-inicio{
+.icono:first-child {
+    padding: 0px 3px;
+}
+
+.icono:hover {
+    background-color: #8bddf17e;
+}
+
+.logos-inicio {
     width: 35%;
+    padding-top: 2px;
 }
 
 @media (min-width: 768px) {
     .icono {
         flex-basis: calc(33.3% - 1rem);
     }
-    .logos-inicio{
+    .logos-inicio {
         width: auto;
     }
 }
@@ -235,13 +258,14 @@ h4 {
     position: relative;
 }
 
-.separador{
+.separador {
     height: 10rem;
 }
 
-.separador1{
+.separador1 {
     height: 5rem;
 }
+
 
 /**Anuncios**/
 
@@ -257,7 +281,6 @@ h4 {
         flex-wrap: wrap;
         margin-left: 3rem;
     }
-
 }
 
 .anuncio {
@@ -273,13 +296,13 @@ h4 {
     .anuncio {
         flex: 0 0 calc(28.8% - 1rem);
     }
-    #henisa-index{
-        padding-left: 0rem ;
+    #henisa-index {
+        padding-left: 0rem;
     }
-    #lam-index{
+    #lam-index {
         padding-right: 0rem;
     }
-    #utzzia-index{
+    #utzzia-index {
         padding-left: 1.5rem;
     }
 }
@@ -320,12 +343,12 @@ h4 {
         padding-top: 0;
         padding-left: 2rem;
     }
-    #simple{
+    #simple {
         display: inline-block;
         justify-content: flex-end;
         padding-left: 3rem;
     }
-    #gonzalez{
+    #gonzalez {
         display: inline-block;
         justify-content: flex-end;
         padding-left: 3rem;
@@ -336,12 +359,12 @@ h4 {
     padding: 0rem;
 }
 
-.contenido-anuncio h3, .contenido-anuncio p {
+.contenido-anuncio h3,
+.contenido-anuncio p {
     margin: 0;
     align-content: center;
     text-align: center;
 }
-
 
 .ver-todas {
     display: inline-flex;
@@ -350,12 +373,14 @@ h4 {
     margin-left: 2rem;
 }
 
-@media(min-width: 768px){
-.ver-todas {
-    display: flex;
-    justify-content: flex-end;
+@media(min-width: 768px) {
+    .ver-todas {
+        display: flex;
+        justify-content: flex-end;
+    }
 }
-}
+
+
 /**Links de Interes**/
 
 @media (min-width: 768px) {
@@ -392,31 +417,28 @@ h4 {
 }
 
 @media (min-width: 768px) {
-   #ieric{
-       padding-left: 3.5rem;
-   }
-   #uif{
-       display: inline-block;
-       padding-bottom: 2rem;
-       padding-left: 3rem;
-   }
-#ssn{
-    display: inline-block;
-    padding-bottom: 3rem;
-
+    #ieric {
+        padding-left: 3.5rem;
+    }
+    #uif {
+        display: inline-block;
+        padding-bottom: 2rem;
+        padding-left: 3rem;
+    }
+    #ssn {
+        display: inline-block;
+        padding-bottom: 3rem;
+    }
+    #aduana {
+        display: inline-block;
+        justify-content: center;
+        padding-top: 5rem;
+    }
+    #argentina {
+        display: inline-block;
+        padding-left: 2.5rem;
+    }
 }
-   #aduana{
-    display: inline-block;
-    justify-content: center;
-    padding-top: 5rem;
-   }
-   #argentina{
-    display: inline-block;
-    padding-left: 2.5rem;
-   }
-}
-
-
 
 .iconos-caracteristicas {
     list-style: none;
@@ -440,6 +462,7 @@ h4 {
     display: flex;
     justify-content: flex-end;
 }
+
 
 /**Contacto Home**/
 
@@ -466,17 +489,21 @@ h4 {
     justify-content: center;
 }
 
+
 /*LOGOS CONTACTO*/
-.fa-phone-square-alt{
+
+.fa-phone-square-alt {
     color: #71B100;
 }
 
-.fa-clock{
+.fa-clock {
     color: #0e83a7;
 }
-.fa-envelope{
+
+.fa-envelope {
     color: #b46600;
 }
+
 
 /* boton contacto animado */
 
@@ -506,7 +533,7 @@ h4 {
     transition: 0.5s;
 }
 
-.botoncontacto:hover{
+.botoncontacto:hover {
     background-color: #15b1e0;
 }
 
@@ -528,6 +555,7 @@ h4 {
     right: 0;
 }
 
+
 /* Google Maps */
 
 .divframe {
@@ -547,12 +575,15 @@ h4 {
     width: 100%;
     height: 100%;
 }
-@media(min-width: 768px){
-    .divframe{
+
+@media(min-width: 768px) {
+    .divframe {
         display: block;
         margin-top: 6rem;
     }
 }
+
+
 /**Footer**/
 
 .site-footer {
@@ -579,22 +610,21 @@ h4 {
     font-size: 1.5rem;
 }
 
+
 /**INTERNAS**/
+
 
 /**Contacto**/
 
-
-
-.texto-nosotros{
+.texto-nosotros {
     border-style: inset;
     border-color: #077fa3;
     text-align: center;
     padding: 1rem 1rem 1rem 1rem;
     border-radius: 3rem;
-    
 }
 
-.texto-contacto{
+.texto-contacto {
     border-width: 3px;
     border-style: inset;
     border-color: #077fa3;
@@ -602,28 +632,23 @@ h4 {
     margin-top: 4rem;
     padding: 1rem 1rem 1rem 1rem;
     border-radius: 3rem;
-    
 }
 
-.texto-contacto i{
+.texto-contacto i {
     font-size: 3rem;
     margin-bottom: 0;
     margin-top: 1rem;
-    
 }
 
 .texto-contacto p {
     line-height: normal;
-    
 }
 
-.contenido-servicios img{
+.contenido-servicios img {
     padding-top: 6rem;
-      
-    
 }
 
-.texto-impositivo{
+.texto-impositivo {
     border-color: #077fa3;
     border-radius: 3rem;
     border-style: inset;
@@ -640,14 +665,14 @@ h4 {
 }
 
 .texto-nosotros blockquote {
-   text-align: center;
-   font-weight: 900;
+    text-align: center;
+    font-weight: 900;
     font-size: 2rem;
     margin: 0;
     padding: 2rem 0 2rem 0;
-
 }
-.contenido-servicios-auditoria img{
+
+.contenido-servicios-auditoria img {
     display: none;
 }
 
@@ -655,23 +680,20 @@ h4 {
     .contenido-nosotros {
         display: grid;
         /**grid-template-columns: repeat(2, 1fr);**/
-        grid-template-columns: 35% 65% ;
+        grid-template-columns: 35% 65%;
         grid-column-gap: 4rem;
     }
     .contenido-servicios {
         display: grid;
         grid-template-columns: 60% 40%;
         column-gap: 2rem;
-        
     }
-    .contenido-servicios img{
+    .contenido-servicios img {
         padding-top: 10rem!important;
-        
     }
-    .contenido-servicios-auditoria img{
+    .contenido-servicios-auditoria img {
         display: block;
         padding-top: 15rem!important;
-        
     }
     .contenido-servicios-auditoria {
         display: grid;
@@ -683,33 +705,29 @@ h4 {
         grid-template-columns: 50% 50%;
         grid-column-gap: 2rem;
     }
-
-    .texto-nosotros,.texto-impositivo,.texto-contacto{
+    .texto-nosotros,
+    .texto-impositivo,
+    .texto-contacto {
         border-radius: 1.5rem;
         text-align: center;
         border-style: none!important;
         padding: 1rem 1rem 1rem 1rem;
-        -webkit-box-shadow: 10px 2px 11px -8px rgba(0,0,0,0.53);
-        -moz-box-shadow: 10px 2px 11px -8px rgba(0,0,0,0.53);
-        box-shadow: 10px 2px 11px -8px rgba(0,0,0,0.53);
+        -webkit-box-shadow: 10px 2px 11px -8px rgba(0, 0, 0, 0.53);
+        -moz-box-shadow: 10px 2px 11px -8px rgba(0, 0, 0, 0.53);
+        box-shadow: 10px 2px 11px -8px rgba(0, 0, 0, 0.53);
         background: linear-gradient(to top, rgb(255, 255, 255), rgb(226, 224, 224));
-        
     }
-    
-
-    .texto-nosotros blockquote{
-    text-align: center;
+    .texto-nosotros blockquote {
+        text-align: center;
     }
-
-    .separador{
-        display: block;    
+    .separador {
+        display: block;
     }
-    .separador1{
-        display: block;    
+    .separador1 {
+        display: block;
     }
-   
-
 }
+
 
 /**Anuncio**/
 
