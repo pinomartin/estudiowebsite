@@ -182,6 +182,11 @@ li {
     height: 65%;
     position: relative;
     padding-top: 2rem;
+    transition: all .3s ease-in-out;
+}
+
+#loga:hover{
+    filter: brightness(1.3);
 }
 
 
